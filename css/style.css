@@ -4,8 +4,6 @@
   padding: 0;
 }
 
-
-
 /* Estilos gerais */
 body {
   font-family: 'Arial', sans-serif;
@@ -92,3 +90,12 @@ footer {
   padding: 10px 0;
   text-align: center;
 }
+
+/* Paleta de cores:
+#653289 - Roxo mais escuro 
+#7F4AA4 - Roxo mais claro 
+#9C7187 - Lilás mais escuro 
+#C598AF - Lilás mais claro 
+#FBB80F - Laranja 
+#FBEE0F - Amarelo
+*/
