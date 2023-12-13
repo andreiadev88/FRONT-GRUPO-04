@@ -2,8 +2,8 @@
 
 <p>
   Este projeto é dedicado a pratica de Front End Estático com HTML e CSS. <br />
-  Ministrada pelos professores <a href="roosevelt.franklin81@gmail.com">Roosevelt Carvalho Franklin Santos</a> e . <a href="mailto:virmerson.dev@gmail.com">Virmerson Bento dos Santos</a><br />
-  Ada 2023 <br />
+  Ministrada pelos professores <a href="roosevelt.franklin81@gmail.com">Roosevelt Carvalho Franklin Santos</a> e <a href="mailto:virmerson.dev@gmail.com">Virmerson Bento dos Santos</a>. <br />
+  Ada - Front End Estático - Start Coding - Turma 1025 - Grupo 04 <br />
 </p>
 
 ## Início Rápido
