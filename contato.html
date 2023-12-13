@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+   
+    <link rel="stylesheet" href="css/style.css" />
+
+   
+</head>
+<body>
+    <div id="cabecalho">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="home.html">
+                        <img class="logo" src="assets/logo.png" alt="Logomarca da casa de festas mamma mia" />
+                    </a>
+                </div>
+                <div class="col-lg-8">
+                    <ul class="menu d-flex">
+                        <li><a href="home.html">Homepage</a></li>
+                        <li><a href="#">Eventos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="https://github.com/andreiadev88" class="github">Github</a></li>
+                        
+                    </ul>
+                </div>
+            </div>       
+        </div>
+    </div>
+    <div id="conteudo">
+        <div class="container">
+            <div class="row">
+                <div class="formulario d-flex justify-content-center">
+                    <form class="formulario-contato mt-4 mb-4" method="post" action="index.html">
+                        <h1>Fale Conosco</h1>
+                        <p class="descricao">
+                            Para falar com nossa casa de eventos basta preencher o formulário abaixo.
+                        </p>
+                        <div>
+                            <input 
+                                type="text"
+                                class="form-control rounded border-white mb-3 form-input"
+                                name="nome"
+                                placeholder="Digite seu nome"
+                                required 
+                            />
+                        </div>
+                        <div>
+                            <input 
+                                type="email"
+                                class="form-control rounded border-white mb-3 form-input"
+                                name="email"
+                                placeholder="Digite seu e-mail"
+                                required 
+                            />
+                        </div>
+                        <div>
+                            <select class="form-control rounded border-white mb-3" name="assunto">
+                                <option value="orçamento">Orçamento</option>
+                                <option value="duvidas">Dúvidas</option>
+                                <option value="reclamacoes">Reclamações</option>
+                                <option value="sugestoes">Sugestões</option>
+                            </select>
+                        </div>
+                        <div>
+                            <textarea
+                                name="mensagem"
+                                class="form-control rounded border-white mb-3"
+                                rows="5"
+                                placeholder="Digite sua mensagem"
+                                required></textarea>
+                        </div>
+                        <div class="submit-button-wrapper">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+          <p>&copy; 2023 | Site desenvolvido por G4</p>
+        </div>
+      </footer>
+</body>
+</html>
