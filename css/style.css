@@ -37,7 +37,7 @@ header {
 
 .menu a {
   text-decoration: none;
-  color: white;
+  color: #FBEE0F;
 }
 
 .logo-content {
@@ -52,6 +52,7 @@ header {
 /* Estilos do conteúdo principal */
 main {
   padding: 20px 0;
+  background-color: antiquewhite;
 }
 
 .slogan {
@@ -81,7 +82,14 @@ main {
 #apresentacao img {
   max-width: 100%;
   height: auto;
+  aspect-ratio: 16/9;
 }
+
+#apresentacao a{
+  color: #333;
+}
+
+
 
 /* Estilos do rodapé */
 footer {
