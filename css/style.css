@@ -127,3 +127,19 @@ footer {
 #historia a {
   color: #333;
 }
+
+.sobre-nos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+  text-align: justify;
+}
+#nome {
+  font-weight: bold;
+}
+
+
+
+
+
