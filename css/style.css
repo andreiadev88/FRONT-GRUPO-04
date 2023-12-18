@@ -22,6 +22,7 @@ header {
   background-color: #7F4AA4; /* Cor de fundo do cabeçalho */
   color: white; /* Cor do texto do cabeçalho */
   padding: 10px 0;
+  height: 120px;
 }
 
 .menu {
@@ -46,7 +47,7 @@ header {
 
 .logo {
   max-width: 100%;
-  height: auto;
+  height: 100px;
 }
 
 /* Estilos do conteúdo principal */
@@ -77,6 +78,7 @@ main {
 #apresentacao li {
   flex-basis: calc(33.33% - 20px);
   margin-bottom: 20px;
+  float: right;
 }
 
 #apresentacao img {
@@ -97,17 +99,10 @@ footer {
   color: white; /* Cor do texto do rodapé */
   padding: 10px 0;
   text-align: center;
+
 }
 
-/* Paleta de cores:
-#653289 - Roxo mais escuro 
-#7F4AA4 - Roxo mais claro 
-#9C7187 - Lilás mais escuro 
-#C598AF - Lilás mais claro 
-#FBB80F - Laranja 
-#FBEE0F - Amarelo
-*/
-
+/* Estilos história*/
 #historia ul {
   list-style-type: none;
   display: flex;
@@ -127,3 +122,12 @@ footer {
 #historia a {
   color: #333;
 }
+
+/* Paleta de cores:
+#653289 - Roxo mais escuro 
+#7F4AA4 - Roxo mais claro 
+#9C7187 - Lilás mais escuro 
+#C598AF - Lilás mais claro 
+#FBB80F - Laranja 
+#FBEE0F - Amarelo
+*/
